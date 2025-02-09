@@ -1,0 +1,100 @@
+.auth-form-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.form-login {
+  background: #161b25;
+  max-width: 800px;
+  width: 90%;
+  max-height: 500px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  gap: 20px;
+  outline: 1px solid #4656619f;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.form-titre {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0;
+}
+.nut{
+  max-width:700px;
+  width: 90%;
+  /* margin:0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label{
+  max-width: 180px;
+  width: 90%;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 10px;
+}
+input {
+  max-width: 400px;
+  width: 90%;
+  /* margin: 0 auto; */
+  height: 30px;
+  background: #ffffff;
+  border: none;
+  outline: none;
+  /* border-radius: 10px; */
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  font-size: 16px;
+  color: #000;
+}
+::placeholder {
+  color: #7070708a;
+}
+.password-forgot {
+  max-width: 600px;
+  width: 90%;
+  text-align: start;
+  
+}
+.password-forgot a {
+  color: rgb(23, 77, 90);
+  /* text-decoration: underline; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logIn-button {
+  max-width: 200px;
+  width: 90%;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: rgb(80, 84, 91);
+  font-size: 17px;
+  font-weight: bolder;
+  outline: 1px solid #6b7dbb;
+}
+/* .logIn-button:hover {
+  background: #000;
+} */
+input:invalid {
+  border-color: red; /* Change la couleur de bordure en rouge pour les champs invalides */
+}
+.profil {
+  width: 50px;
+  padding: 4px;
+  position: absolute;
+  height: 50px;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 10px;
+  background-color:#0b0744ab ;
+}

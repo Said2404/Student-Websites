@@ -1,0 +1,295 @@
+h1 {
+  background: #0f1228;
+  color: #9b9d9e;
+  text-align: center;
+  font-size: 45px;
+}
+.container-display {
+  max-width: 900px;
+  width: 90%;
+  margin: 50px auto 70px;
+  background: rgb(18, 22, 30);
+  height: 790px;
+  border-radius: 20px;
+  padding: 0 10px 5px;
+}
+.m15 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+.titre-infoP {
+  font-size: 30px;
+  font-weight: bold;
+  max-width: 828px;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  text-align: start;
+}
+.container-info {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  max-width: 414px;
+  width: 90%;
+  height: 100%;
+}
+.informations-admin {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.profile-img {
+  max-width: 300px;
+  width: 90%;
+  margin: auto;
+  height: 300px;
+  /* background: #000; */
+}
+.profil {
+  width: 50px;
+  padding: 4px;
+  position: absolute;
+  height: 50px;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 10px;
+  background-color:#0b0744ab ;
+}
+
+
+
+img {
+  object-fit: contain;
+}
+label {
+  font-size: 19px;
+  font-weight: bold;
+}
+input {
+  background: rgb(30, 36, 49);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  max-width: 400px;
+  width: 90%;
+  height: 25px;
+  padding: 5px;
+  font-size: 17px;
+}
+.m16 {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  margin: -30px 0;
+}
+.m17 {
+  max-width: 414px;
+  width: 100%;
+}
+.action-account,
+.action-admins {
+  max-width: 880px;
+  width: 90%;
+  border-radius: 20px;
+  margin: 40px auto;
+  background: rgb(18, 22, 30);
+  padding: 10px 20px;
+}
+.button-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+}
+.button-m10 {
+  display: flex;
+  gap: 30px;
+  margin: 10px 0;
+  max-width: 880px;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+button {
+  max-width: 200px;
+  width: 90%;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #082c88;
+}
+.action-admins {
+  padding: 20px 20px 30px;
+}
+.button-action-admin {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.out-button {
+  max-width: 920px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.out-button button {
+  background: #d9d9d9;
+  color: black;
+}
+.notif-titre {
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+.container-checkbox {
+  display: flex;
+  flex-direction: column;
+  background: #161b25;
+  color: #fff;
+  max-width: 570px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin: 30px auto;
+}
+.radio-button {
+  width: 85px;
+  height: 40px;
+  background: #6a6a6a;
+  border-radius: 20px;
+  position: relative;
+}
+.point-button {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+.text-b {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: arial;
+  margin: 10px 0;
+  padding: 0 15px;
+}
+.text-not {
+  max-width: 500px;
+  width: 100%;
+}
+.text-b.maj {
+  padding: 0 15px 15px;
+  border-bottom: 1px solid;
+}
+
+.point-button.nj {
+  left: 37px;
+}
+.radio-button.nj {
+  background: #00cd39;
+}
+hr {
+  max-width: 530px;
+  width: 100%;
+  margin: auto;
+  background: #7d8085;
+}
+.vanC {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  padding: 25px 0;
+}
+.vanB {
+  border-top: 1px solid;
+  padding: 20px 0;
+}
+.button-EA{
+    max-width: 700px;
+    display: flex;
+    width: 100%;
+    margin:30px auto;
+    justify-content: space-between;
+}
+.container-checkbox.confi{
+    padding:15px 5px;
+}
+.text-b.confi{
+    border-bottom:1px solid ;
+    padding: 10px 0;
+    width: 400px;
+    margin:0 auto;
+    font-weight: bold;
+}
+.confi-titre,.confi-minti{
+    text-align: center;
+    font-weight: bold;
+}
+.confi-minti{
+    font-size: 17px;
+}
+.confi-titre{
+    font-size: 26px;
+}
+.button-diplome{
+  max-width:500px ;
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  margin: 30px auto;
+  justify-content: space-between;
+}
+
+.supprimer-diplome-bt {
+  height: 30px;
+  border-radius: 5px;
+  background: #45475a;
+  max-width: 180px;
+  width: 90%;
+  margin-left: -70px; 
+}
+
+
+.ajouter-diplome-bt {
+   height: 30px;
+  border-radius:5px ;
+  background: #45475a;
+  max-width: 180px;
+  width: 90%;
+  margin-right: -40px;
+}
+
+.info-id-mdp{
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  width: 90%;
+}
+.informations-admin.id-mdp{
+  max-width: 600px;
+  width: 90%;
+}
+@media only screen and (max-width: 768px) {
+  .info-id-mdp{
+    flex-direction: column;
+  }
+}
+.informations-admin .diplome-2 {
+  margin-top: 10px;
+}
+

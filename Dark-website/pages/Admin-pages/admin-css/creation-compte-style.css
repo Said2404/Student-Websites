@@ -1,0 +1,18 @@
+.supprimer-diplome-bt {
+    height: 30px;
+    border-radius: 5px;
+    background: #45475a;
+    max-width: 180px;
+    width: 90%;
+    margin-left: -70px; 
+  }
+  
+  
+  .ajouter-diplome-bt {
+     height: 30px;
+    border-radius:5px ;
+    background: #45475a;
+    max-width: 180px;
+    width: 90%;
+    margin-right: -40px;
+  }

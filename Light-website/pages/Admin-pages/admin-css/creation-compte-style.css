@@ -1,0 +1,9 @@
+.wrapper {
+    max-width: 1200px; /* Définir une largeur maximale pour le contenu */
+    margin: 0 auto; /* Centrer le contenu horizontalement */
+  }
+  
+  .Cadre {
+  
+    background-color: #d9d9d9;
+  }

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Admin-pages/admin-css/gestion-style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../../css/root.css" />
+    <script src="../../js/script.js" defer></script>
+    <link rel="stylesheet" href="../../style.css" />
+    <title>Affichage données du Compte</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="list">
+          <li><a href="../../index.html">Accueil</a></li>
+          <li><a href="../../pages/evenements.html">Évènements</a></li>
+          <li><a href="../../pages/annuaire.html">Annuaire</a></li>
+          <li><a href="../../pages/dpi.html">Département Informatique</a></li>
+        </ul>
+        <a href="../../pages/login-page.html"
+        ><img class="profil" src="../../images/profil.png" alt=""
+      /></a>
+      <i class="bx bx-x close-icon closeI"></i>
+    </nav>
+    <i class="bx bx-menu menu-hamburger"></i>
+    <a href="../../pages/login-page.html"
+      ><img class="profil op" src="../../images/profil.png" alt=""
+    /></a>
+  </header>
+    <div class="wrapper">
+      <div class="cadre">
+      <div class="band">Données du Compte
+        <img class="logo" src="../../images/Logo.png" alt="" />
+      </div>
+      <div class="container-display">
+        <h2 class="titre-infoP">Informations Personnelles</h2>
+        <div class="m15">
+          <div class="container-info">
+            <div class="informations-admin">
+              <label for="nom">Nom :</label>
+              <input name="nom" type="text" value="Nom" />
+            </div>
+            <div class="informations-admin">
+              <label for="prenom">Prénom :</label>
+              <input name="prenom" type="text" value="Prénom" />
+            </div>
+            <div class="informations-admin">
+              <label for="adresse">Adresse :</label>
+              <input name="adresse" type="text" value="Adresse actuelle" />
+            </div>
+            <div class="informations-admin">
+              <label for="mail">Email :</label>
+              <input name="mail" type="text" value="email@example.com" />
+            </div>
+            <div class="informations-admin">
+              <label for="metier">Dernier métier effectué :</label>
+              <input name="metier" type="text" value="Nom du métier" />
+            </div>
+          </div>
+          <div class="container-info">
+            <div class="profile-img">
+              <img src="../../images/TChollet.png" alt="" />
+            </div>
+            <div class="informations-admin">
+              <label for="telephone">Téléphone :</label>
+              <input name="telephone" type="text" value="Numéro de téléphone" />
+            </div>
+            <div class="informations-admin">
+              <label for="entreprise nom">Entreprise :</label>
+              <input
+                name="entreprise nom"
+                type="text"
+                value="Nom de l’entreprise"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="m16">
+          <div class="m17">
+            <div class="informations-admin" style="margin-bottom: 10px">
+              <label for="diplome">Diplômes :</label>
+              <input name="diplome" type="text" value="Diplôme 1" />
+            </div>
+            <div class="informations-admin" style="margin-top: 0">
+              <input name="diplome" type="text" value="Diplôme 2" />
+            </div>
+          </div>
+          <div class="m17">
+            <div class="informations-admin" style="margin-bottom: 10px">
+              <label for="entreprise nom">Année d’obtention :</label>
+              <input name="annee" type="text" value="Année d’obtention 1" />
+            </div>
+            <div class="informations-admin" style="margin-top: 0">
+              <input name="annee" type="text" value="Année d’obtention 2" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="action-account">
+        <h2>Actions Compte</h2>
+        <div class="button-action">
+          <div class="button-m10">
+            <a href="gestion-notif.html" style="width: 200px"
+              ><button>Gérer les notifications</button></a
+            >
+            <a href="gestion-confi.html" style="width: 200px"
+              ><button>Paramètres de confidentialité</button></a
+            >
+          </div>
+          <div class="button-m10">
+            <a href="modif-compte.html" style="width: 200px"
+              ><button>Modifier le compte</button></a
+            >
+            <a href="" style="width: 200px"
+              ><button>Exporter les données</button></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="action-admins">
+        <h2>Actions Compte</h2>
+        <div class="button-action-admin">
+          <a href="../../pages/Admin-pages/creation-compte.html" style="width: 200px"><button>Créer un compte</button></a>
+          <a
+            href="../../pages/Admin-pages/event-creat.html"
+            style="width: 200px"
+            ><button>Créer un évènement</button></a
+          >
+        </div>
+      </div>
+      <form action="../../pages/login-page.html" method="get">
+        <div class="out-button"><button type="submit">Déconnexion</button></div>
+      </form>
+      <footer>
+        <a href="https://www.linkedin.com/company/iut-de-metz/?originalSubdomain=fr" target="_blank"><img src="../../images/in.png" alt="" class="linkedin-icon"
+        /></a>
+        <div class="info">
+          <h3>Renseignements</h3>
+          <div class="informations">
+            <div class="info-case">
+              <h5>CANDIDATURE</h5>
+              <p>
+                > 1re année : bacs généraux et technologiques
+                <br />> 2e année : sur dossier, bac + 1 <br />> 3e année : sur
+                dossier, bac + 2 en informatique
+              </p>
+            </div>
+            <div class="info-case">
+              <h5>MODE PÉDAGOGIQUE</h5>
+              <p>
+                > Formation en initiale classique ou
+                <br />en alternance dès la 3ème année selon les parcourse
+              </p>
+            </div>
+            <div class="info-case">
+              <h5>ADMISSION</h5>
+              <p>
+                > PARCOURSUP en 1ère année <br />
+                > E-Candidat à partir de la 2ème année
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-link">
+          <div class="link">
+            <h3>Liens vers les flyers</h3>
+            <p>
+              <a
+                class="link-footer"
+                href="https://iut-metz.univ-lorraine.fr/sites/default/files/2023-11/Flyer%20du%20BUT1%20au%20BUT3%20au%20d%C3%A9partement%20INFO.pdf"
+                target="_blank"
+                title="Flyer du BUT1 au BUT3"
+                >> Flyer du BUT1 au BUT3 au département INFO.pdf</a
+              ><br />
+              <a
+                class="link-footer"
+                href="https://iut-metz.univ-lorraine.fr/sites/default/files/2023-11/Flyer%20du%20BUT1%20au%20BUT3%20au%20d%C3%A9partement%20INFO.pdf"
+                target="_blank"
+                title="Flyer entrée en 2ème année de BUT"
+                >> Flyer entrée en 2ème année de BUT passerelle au département
+                INFO.pdf</a
+              ><br />
+              <a
+                class="link-footer"
+                href="https://iut-metz.univ-lorraine.fr/sites/default/files/2023-11/Flyer%20entr%C3%A9e%20en%203%C3%A8me%20ann%C3%A9e%20de%20BUT%20au%20d%C3%A9partement%20INFO.pdf"
+                target="_blank"
+                title="Flyer entrée en 3ème année de BUT"
+                >> Flyer entrée en 3ème année de BUT au département INFO.pdf</a
+              >
+            </p>
+          </div>
+          <div class="contact">
+            <h3>Contact</h3>
+            <p>
+              E-mail :iutmetz-info-sec@univ-lorraine.fr
+              <br />Téléphone : 03 72 74 84 90
+            </p>
+          </div>
+        </div>
+      </footer>
+      </div>
+    </div>
+  </body>
+</html>

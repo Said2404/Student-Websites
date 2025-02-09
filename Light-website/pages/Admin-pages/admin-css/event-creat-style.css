@@ -1,0 +1,60 @@
+.button-creat {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  width: 90%;
+  justify-content: center;
+  gap: 70px;
+  margin: auto;
+}
+.event,
+.removeB {
+  width: 200px;
+  height: 50px;
+  /* border-radius: 20px; */
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-size: 17px;
+}
+.event.creat {
+  background: #00cd39;
+}
+.event.cancel {
+  background: #6a6a6a;
+}
+.remove-button {
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.removeB {
+  background: #dd0000;
+}
+.action-admin {
+  max-width: 850px;
+  border-radius: 10px;
+  width: 100%;
+  margin: auto;
+  height: 10rem;
+  background: #161b25;
+}
+.modif-event {
+  background: #d9d9d9;
+  color: black;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+}
+.modif-event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: #082c88;
+}
